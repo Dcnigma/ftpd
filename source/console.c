@@ -1,3 +1,4 @@
+
 #include "console.h"
 #include <arpa/inet.h>
 #include <errno.h>
@@ -273,4 +274,3 @@ void console_render(void)
 {
 }
 #endif
-

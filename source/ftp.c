@@ -1927,7 +1927,7 @@ ftp_init(void)
     ret = 0;
 
     hidScanInput();
-    if(hidKeysDown() & KEY_B)
+    if(hidKeysDown() & KEY_PLUS)
     {
       /* user canceled */
       loop = false;
@@ -2164,7 +2164,7 @@ ftp_loop(void)
   hidScanInput();
   u32 down = hidKeysDown(CONTROLLER_P1_AUTO);
 
-  if(down & KEY_B)
+  if(down & KEY_PLUS)
     return LOOP_EXIT;
 #endif
 

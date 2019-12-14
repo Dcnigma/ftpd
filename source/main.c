@@ -78,7 +78,7 @@ wait_for_b(void)
   hidScanInput();
 
   /* check if B was pressed */
-  if(hidKeysDown(CONTROLLER_P1_AUTO) & KEY_B)
+  if(hidKeysDown(CONTROLLER_P1_AUTO) & KEY_PLUS)
     return LOOP_EXIT;
 
   /* B was not pressed */
@@ -156,7 +156,7 @@ main(int  argc,
   }
 
 #if defined(_3DS) || defined(__SWITCH__)
-  console_print("Press B to exit\n");
+  console_print("\nPress + to exit\n");
 #endif
 
 #ifdef ENABLE_LOGGING
