@@ -1,6 +1,10 @@
 # ftpd
 
-FTP Server for 3DS/Switch/Linux.
+FTP Server for Switch Mod + to exit.
+Most of the homebrew on switch uses + to exit I modded FTPD to do that too.  
+My first button press was always + so I fixed that for my self.  
+
+Removed some 3ds code so it will not work anymore for 3ds...
 
 ## Features
 
