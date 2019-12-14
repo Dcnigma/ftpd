@@ -6,7 +6,7 @@ FTP Server for Switch Mod + to exit.
 Most of the homebrew on switch uses + to exit I modded FTPD to do that too.  
 My first button press was always + so I fixed that for my self.  
 
-<img src="Screenshots/s1.jpg" alt="drawing" width="400"/>   <img src="Screenshots/s2.jpg" alt="drawing" width="400"/>   
+<img src="Screenshots/s1.png" alt="drawing" width="400"/>   <img src="Screenshots/s2.png" alt="drawing" width="400"/>   
 
 ## Features
 
